@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Employees</title>
+</head>
+<body class="container">
+  
+  <div>
+    <h1 class="text-center">Employee Information</h1>
+  </div>
+
+  <div id="new-employee" class="jumbotron">
+    <label class="m-2">New Employee:</label>
+    <input type="text" id="new-employee-name" class="form-control m-2" placeholder="Full Name">
+    <input type="text" id="new-employee-address" class="form-control m-2" placeholder="Current Address">
+    <input type="text" id="new-employee-phone" class="form-control m-2" placeholder="Current Phone Number">
+    <input type="email" id="new-employee-email" class="form-control m-2" placeholder="Current Email Address">
+    <label class="ms-2 me-5">Position Being Hired For:</label>
+    <input type="text" id="new-employee-title" class="form-control m-2" placeholder="Job Title">  
+    <button id="create-new-employee" class="btn btn-primary form-control ms-2 mb-4">Create</button>
+  </div>
+
+  <div id="app" class="row"></div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
